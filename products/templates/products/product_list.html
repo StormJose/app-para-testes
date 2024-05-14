@@ -3,7 +3,7 @@
 
 {% block content %}
 <ul>
-    {% for product in products %}
+    {% for product in products_list %}
     <li><a href="{% url 'product_detail' product.pk %}">{{ product.name }}</a> - ${{ product.price }}</li>
     {% endfor %}
 </ul>
