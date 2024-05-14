@@ -1,0 +1,32 @@
+/* static/css/style.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header .navbar {
+    background-color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.main {
+    padding: 20px;
+    flex: 1;
+}
+
+/* This is a basic responsive grid example */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Add more styles as per your design needs */

@@ -1,0 +1,10 @@
+<!-- payments/templates/payments/payment_form.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <!-- Simulated payment form; in real life, integrate with payment services -->
+    <button type="submit">Pay Now</button>
+</form>
+{% endblock %}
